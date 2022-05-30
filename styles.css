@@ -1,0 +1,129 @@
+/* 
+Author: Kristine Christensen
+Date Modified: May 29, 2022
+Assignment: 5 */
+
+/* CSS reset - zero out the margin, padding, and border */
+
+* {
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+
+/* Add margin to the headers and paragraph tags */
+h1, h2, h3, p {
+    margin:1em 0em;
+}
+
+body {
+    font-family: 'Lato','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+/* Set the header and footer to span the entire web page */
+header, footer {
+    margin:0px;
+    max-width: 100%;
+    background-color: rgb(49, 114, 114);
+    padding:20px;
+}
+header {
+    border-bottom:solid 3px #333;
+}
+footer {
+    border-top: solid 3px #333;
+    text-align:center;
+    clear:both;
+    color:white;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+}
+footer a:hover{
+    color:rgb(24, 24, 23);
+}
+
+/* Style the Links in the Header */
+header a {
+    text-decoration:none;
+}
+
+header a.name {
+    background-color:#333;
+    color:white;
+    padding:10px;
+    float:left;
+}
+
+header a.name:hover {
+    background-color:gray;
+    color:white;
+}
+
+header nav {
+    margin-left:55%;
+}
+header nav a{
+    color:white;
+    margin-left:30px;
+    padding:10px;
+}
+
+header nav a:hover{
+    background-color:#333;
+    color:white;
+}
+
+/* Constrain the width of the page content */
+section, #navWrap {
+    max-width:840px;
+    margin:0 auto;
+}
+
+/* Set the background image of the main area */
+main {
+    background-image: url("images/moroccan-flower.png");
+}
+
+article {
+    max-width:550px;
+    background-color:white;
+    padding:15px;
+    display:inline-block;
+    margin:20px 0px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+article h1 {
+    border-bottom: solid 2px #333;
+    margin-bottom: 10px;
+   
+}
+
+article img {
+    float: left;
+    margin-right:10px;
+    border:solid 1px #333;
+}
+
+aside {
+    float:right;
+    width:200px;
+    background-color:white;
+    margin:20px 0; 
+    text-align:center;   
+    padding:10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+aside h3 {
+    border-bottom: 2px solid #333;
+    margin-bottom:10px;
+}
+aside a img {
+    width:40px;
+    padding:5px;
+}
+
